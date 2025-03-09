@@ -1,0 +1,11 @@
+;atualmente, o código consegue processar o modelo seguindo esse padrão
+
+.DATA
+90 10 ; comentario
+91 9
+
+.CODE
+LDA 90
+ADD 91 ; comentario
+STA 92
+HLT
